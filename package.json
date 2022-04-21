@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "deploy": "gh-pages -d build",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KaterinT/Landing_Page_Mountain_Explorer.git"
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/KaterinT/Landing_Page_Mountain_Explorer#readme",
   "dependencies": {
-    "build": "^0.1.4",
+    "build": "^0.1.4"
+  },
+  "devDependencies": {
     "gh-pages": "^3.2.3"
   }
 }
